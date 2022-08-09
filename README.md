@@ -34,8 +34,17 @@ THEN I am signed out of the site
 WHEN I am idle on the site for more than a set time
 THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments
 
-## Heroku 
+## Technologies 
+This application uses mysql2, sequelize, handlebars.js, express.js, dotenv, and bcrypt. 
+
+## Usage 
+Users can login & post to the homepage about technical news & the like. The posts are then added to the databases & saved to the homepage. Users can also logout.
+
+## Heroku deployed link
 https://protected-plateau-89429.herokuapp.com/
+
+## License 
+MIT
 
 
 
